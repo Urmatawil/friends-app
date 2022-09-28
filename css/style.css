@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    transition: 0.2s ease;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    line-height: 40px;
+    background-image: linear-gradient(to top, #942911 0%, #cf866c 100%);
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 6px;
+	outline: none;
+	border: 1px solid #ededed;
+    height: 2em;
+}
+
+select {
+    border-radius: 6px;
+	outline: none;
+	border: 1px solid #ededed;
+    height: 2em;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.row article {
+    padding: 4px;
+}
+
+.row label {
+    padding: 4px;
+}
+
+#results {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 0 1em;
+}
+
+.person-row {
+    padding: 4px;
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+    overflow: hidden;
+}
+
+#profileimg {
+    height: 120px;
+    width: 120px;
+    box-shadow: 0px 4px 15px -10px rgba(0,0,0,0.75);
+    border-radius: 50%;
+    padding: 1em;
+    margin: 2px 1em;
+}
+
+img {
+    height: 40px;
+}
+
+.person-info {
+    padding: 1em;
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.person-info h2 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.person-info span {
+    font-size: 12px;
+}
+
+.person-info #tag {
+    margin-top: 6px;
+    font-size: 10px;
+}
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+    margin: 0.6em;
+}
+button:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #results {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}

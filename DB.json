@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Pedro Perez",
+      "image": "avatar3.png",
+      "hobbies": ["Music", "Books", "Sports"],
+      "gender": "M",
+      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tenetur rem quos dicta possimus dolorum cumque voluptatibus "
+    },
+    {
+        "id": 2,
+        "name": "Ramon Valdez",
+        "image": "avatar4.png",
+        "hobbies": ["Sleep", "Books", "Videogames"],
+        "gender": "M",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tenetur rem quos dicta."
+      },
+      {
+        "id": 3,
+        "name": "Maria Perez",
+        "image": "avatar1.png",
+        "hobbies": ["Sleep", "Music", "Videogames"],
+        "gender": "F",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tenetur rem quos dicta."
+      },
+      {
+        "id": 4,
+        "name": "Ana Nuñez",
+        "image": "avatar2.png",
+        "hobbies": ["Comics", "Books", "Videogames"],
+        "gender": "F",
+        "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tenetur rem quos dicta."
+      }
+]

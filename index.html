@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Friends</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="header">
+        <h1>Friends APP</h1>
+    </header>
+    <main id="main">
+        <section class="row">
+            <article class="row">
+                <label>Gender</label>
+                <select id="gender">
+                    <option value="F">Female</option>
+                    <option value="M">Male</option>
+                </select>
+            </article>
+            <article class="row">
+                <label>Hobbies</label>
+                <input list="hobbies" id="hobby" />
+                <datalist id="hobbies">
+                    <option value="Books">
+                    <option value="Comics">
+                    <option value="Music">
+                    <option value="Sports">
+                    <option value="Videogames">
+                </datalist>
+            </article>
+            <article class="row">
+                <button id="searchBtn">Search</button>
+            </article>
+        </section>
+
+        <section id="results">
+            <img src="img/Spinner.svg" alt="">
+        </section>
+    </main>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
