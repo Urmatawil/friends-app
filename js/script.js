@@ -3,7 +3,6 @@ const addButton = document.querySelector("#button-add");
 const results = document.querySelector("#results");
 const hobbys = document.getElementById("hobby");
 const genders = document.querySelector("select");
-const url = "../DB.json";
 let html = "";
 let filter = {}
 
@@ -12,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function getUsersDB() {
+    const url = "../DB.json";
     return fetch(url)
         .then((response) => {
             return response.json();
