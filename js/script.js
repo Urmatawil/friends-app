@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function getUsersDB() {
-    const url = "../DB.json";
+    const url = "./db/DB.json";
     return fetch(url)
         .then((response) => {
             return response.json();
